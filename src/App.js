@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div style={{margin: '20rem'}}>
-        <h2>Open the console log to see the result</h2>
+        <h2>Open  the browser  console log to see  result</h2>
         {console.log('****Bubble Sort ***',Utils.bubbleSort(arrayOfLits))}
         {console.log('****Selecton Sort ***',Utils.selectionSort(arrayOfLits))}
         {console.log('****Insertion Sort ***',Utils.insertionSort (arrayOfLits))}
