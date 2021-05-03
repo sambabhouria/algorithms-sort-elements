@@ -11,6 +11,7 @@ function App() {
         {console.log('****Selecton Sort ***',Utils.selectionSort(arrayOfLits))}
         {console.log('****Insertion Sort ***',Utils.insertionSort (arrayOfLits))}
         {console.log('****Quick Sort ***',Utils.quickSort (arrayOfLits))}
+        {console.log('****Merge Sort ***',Utils.mergeSort (arrayOfLits))}
     </div>
   );
 }
